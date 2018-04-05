@@ -31,5 +31,5 @@
   </group>
 
   <node pkg="tf" type="static_transform_publisher" name="r_grip_broadcaster" args="0 0 0.16 0 0 0 1 right_hand_base r_gripping_point 50" />
-  <node pkg="tf" type="static_transform_publisher" name="l_grip_broadcaster" args="0 0.0 0.15 0 0 0 1 left_hand_base l_gripping_point 50" />
+<!--   <node pkg="tf" type="static_transform_publisher" name="l_grip_broadcaster" args="0 0.0 0.15 0 0 0 1 left_hand_base l_gripping_point 50" /> -->
 </launch>
